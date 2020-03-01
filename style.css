@@ -1,0 +1,223 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html
+{
+    scroll-behavior: smooth;
+
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("assests/background2.jpg");
+    background-position: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.mainheader
+{
+    background-color: rgba(0, 88, 54,0.5);
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: 'Oxanium' ;
+
+}
+
+.logo
+{
+    padding-left: 5px;
+    height: 15vh;
+    width: 25%;
+    background-color: none;
+    background-image: url(assests/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: linear-gradient(); */
+}
+
+.list
+{
+    padding-right: 50px;
+    width: 500px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    height: 15vh;
+}
+.list a 
+{
+    text-align: center;
+    justify-content: space-around;
+    width: 100px;
+    border: 3px solid peru;
+    text-decoration: none;
+    background-color: wheat;
+    color: black;
+    transition: 0.7s;   
+    padding: 2px;
+
+}
+.list a:hover{
+    background-color: peru;
+    width: 120px;
+}
+
+.mainpage
+{
+    width: 100%;
+    align-items: center;
+    margin-top: 170px;
+    margin-left: 150px;
+    color: white;
+
+}
+
+.mainpage>h1{
+    /* width: 100%; */
+    font-family: 'Trade Winds' ;
+    font-size: 50px;
+    color: burlywood ;
+    padding-bottom: 50px;
+}
+.mainpage p{
+    font-size: 20px;
+    font-family: 'Roboto' ;
+    text-align: left;
+    width: 70%;
+
+}
+.mainpage button 
+{
+    margin-top: 20px;
+    padding: 15px 35px;
+    border: none;
+    color: white;   
+    font-family: sans-serif;
+    border-radius: 6px;
+
+}
+.mainpage button:hover
+{
+    margin-top: 20px;
+    padding: 18px 45px;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.btnone
+{
+    background-color: rgb(255, 14, 73);
+    
+}
+.btntwo
+{
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/******************* Second page projects section************************/
+.projectsection{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.7)), url("assests/background1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+
+.projectsection h1
+{
+    font-family: 'Varela Round' ;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    align-items: center;    
+    padding: 60px 0px;
+    
+    
+}
+
+
+
+.figuresdiv
+{
+    display: flex;
+    justify-content: space-around;
+
+}
+.figuresdiv figure
+{
+    font-size: 25px;
+    font-family: 'Varela Round';
+    font-weight: bold;
+    transition: 0.9s;
+}
+
+.figuresdiv figure img
+{
+    width: 500px;
+    height: 300px;
+    border: 4px solid black;
+    border-radius: 40px;
+    
+}
+.figuresdiv figure img:hover
+{
+
+    cursor: pointer;
+    width: 550px;
+    height: 350px;
+    transition: 0.7s ;
+    /* transition: 0.7s; */
+}
+
+/******************* Third page contact section************************/
+.contactsection
+{
+    height: 100vh;
+    width: 100%;
+    background-color:violet ;
+}
+
+
+
+
+/* .logo img{
+    margin-top: 10px;
+    height: 100% ;
+    width: 100%;
+}
+
+.list
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+ul
+{
+    text-decoration: none;
+}
+ul li
+{
+    list-style: none;
+    justify-content: space-around;
+    display: inline-block;
+
+} */
