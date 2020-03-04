@@ -33,7 +33,7 @@ header{
     text-transform: uppercase;
     font-family: 'Oxanium' ;
     border-radius: 70px;
-    position: fixed;    
+    /* position: fixed;     */
 }
 
 .logo
